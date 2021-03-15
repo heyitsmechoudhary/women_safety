@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    app:layoutDescription="@xml/activity_main2_scene"
+    tools:context=".MainActivity2">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="325dp"
+        android:layout_height="523dp"
+        app:srcCompat="@drawable/kisspng_vector_graphics_stock_photography_girl_child_royal_tattys_thingies_cute_and_sweet_5cd9481ee72170_4095072315577436469467"
+        tools:layout_editor_absoluteX="-125dp"
+        tools:layout_editor_absoluteY="214dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD CONTACTS"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="207dp"
+        tools:layout_editor_absoluteY="138dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="EMERGENCY"
+        android:textStyle="bold"
+
+        tools:layout_editor_absoluteX="227dp"
+        tools:layout_editor_absoluteY="300dp" />
+
+</androidx.constraintlayout.motion.widget.MotionLayout>
